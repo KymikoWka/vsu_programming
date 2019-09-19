@@ -1,8 +1,6 @@
-print("Введите x и y ")
-x = int(input('x '))
-y = int(input("y "))
-b = 0
-for c in range(x, y + 1):
-    if not c % 5:
-        b += c
-print(b)
+print("Введите число ")
+x = float(input('x: '))
+if x == int(x) or not x % 1:
+    print("Число не дробное")
+else:
+    print("Число дробное")

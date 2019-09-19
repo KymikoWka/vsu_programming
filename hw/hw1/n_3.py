@@ -1,5 +1,5 @@
-s = input("Введите слово ")
-if s == s[::-1]:
-    print("Это полиндром")
-else:
-    print("Не полиндром")
+x = float(input("Введите x "))
+y = float(input("Введите y "))
+z = float(input("Введите z "))
+c = (x**2+y**2+z**2)**(1/2)
+print(c)
