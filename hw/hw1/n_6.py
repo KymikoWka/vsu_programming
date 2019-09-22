@@ -1,6 +1,6 @@
 print("Введите число ")
 x = float(input('x: '))
-if x == int(x) or not x % 1:
-    print("Число не дробное")
+if x == int(x):
+    print("Число целое")
 else:
-    print("Число дробное")
+    print("Число не целое")
