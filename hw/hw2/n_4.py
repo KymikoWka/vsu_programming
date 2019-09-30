@@ -7,5 +7,5 @@ def skobki(r):
         return "Ne hvataet" + str(zk - ot) + "otkrivaushey skobki!"
     return "Ok!"
 kek = input("Vvod: ")
-otv  = skobki(kek)
+otv = skobki(kek)
 print(otv)
