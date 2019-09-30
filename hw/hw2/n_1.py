@@ -1,6 +1,2 @@
-lst = [] 
-s = input("Введите число: ")
-while s: 
-    lst.append(s)
-    s = input("Введите число: ")
-print(lst)
+from tool import tool_1
+print(tool_1())
