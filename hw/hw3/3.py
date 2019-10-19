@@ -1,5 +1,9 @@
-n = int(input("Введите номер последовательности Фибоначчи: "))
-a = [0, 1]
-for i in range(n - 2):
-    a.append(a[-1] + a[-2])
-print(a)
+def print_feb_nums(n):
+    feb = [0, 1]
+    for i in range(n - 2):
+        feb.append(feb[-1] + feb[-2])
+    print(feb)
+
+
+num = int(input("num: "))
+print_feb_nums(num)
