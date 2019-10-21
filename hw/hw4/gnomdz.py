@@ -5,5 +5,5 @@ def gnome_soft(arr):
             i += 1
         else:
             arr[i], arr[i - 1] = arr[i - 1], arr[i]
-            i-=1
+            i -= 1
     return arr
