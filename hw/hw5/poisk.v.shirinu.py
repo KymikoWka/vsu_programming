@@ -19,6 +19,5 @@ while names:
         if players(doter):
             print(doter)
             break
-        else:
-            d += names.get(doter, [])
+        d += names.get(doter, [])
         x.append(doter)
