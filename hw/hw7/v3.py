@@ -13,7 +13,8 @@ class Matrix:
                                 for b in range(self.string)])
 
     def output(self):
-        print(self.matrix, end='\n')
+        for x in self.matrix:
+            print(' '.join([str(_) for _ in x]))
 
 
 a = Matrix()
