@@ -14,7 +14,7 @@ class Matrix:
 
     def output(self):
         for x in self.matrix:
-            print(' '.join([str(_) for _ in x]))
+            print(' '.join(str(f) for f in x))
 
 
 a = Matrix()
